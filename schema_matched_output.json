@@ -1,0 +1,30 @@
+{
+  "flipkart": {
+    "name": "Flipkart",
+    "connection_string": "mysql+pymysql://root:root%40mohit@localhost:3306/flipkart",
+    "object": "flipkart",
+    "mappings": {
+      "product_id": "product_id",
+      "name": "title",
+      "price": "product_id",
+      "rating": "product_rating",
+      "category": "category_3",
+      "availability": "availability"
+    },
+    "type": "view"
+  },
+  "amazon": {
+    "name": "Amazon",
+    "connection_string": "mysql+pymysql://root:root%40mohit@localhost:3306/amazon",
+    "object": "amazon",
+    "mappings": {
+      "product_id": "id",
+      "name": "name",
+      "price": "discount_price",
+      "rating": "ratings",
+      "category": "sub_category",
+      "availability": "availability"
+    },
+    "type": "view"
+  }
+}

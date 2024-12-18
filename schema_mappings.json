@@ -1,0 +1,20 @@
+{
+    "data_sources": [
+      {
+        "name": "Flipkart",
+        "connection_string": "mysql+pymysql://root:root%40mohit@localhost:3306/flipkart",
+        "table": "flipkart",
+        "mappings": {
+          
+        }
+      },
+      {
+        "name": "Amazon",
+        "connection_string": "mysql+pymysql://root:root%40mohit@localhost:3306/amazon",
+        "table": "amazon",
+        "mappings": {
+          
+        }
+      }
+    ]
+}
